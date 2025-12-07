@@ -1,0 +1,28 @@
+name: Notify Discord on push
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Notify Discord webhook
+        env:
+          WEBHOOK_URL: ${{ secrets.DEPLOY_WEBHOOK_URL }}
+        run: |
+          # Get commit info
+          COMMIT_MSG=$(git log -1 --pretty=format:%s | sed 's/"/\\"/g')
+          COMMIT_URL="https://github.com/${GITHUB_REPOSITORY}/commit/${GITHUB_SHA}"
+          BRANCH=${GITHUB_REF#refs/heads/}
+          CONTENT="**Deploy Notification** - ${GITHUB_REPOSITORY} | branch: ${BRANCH} | author: ${GITHUB_ACTOR} | commit: ${COMMIT_MSG} | ${COMMIT_URL}"
+
+          # Build JSON payload and POST to Discord webhook
+          PAYLOAD=$(printf '%s' "{\"content\":\"${CONTENT}\"}")
+
+          echo "Sending notification to Discord..."
+          curl -s -H "Content-Type: application/json" -d "$PAYLOAD" "$WEBHOOK_URL" || echo "Failed to send webhook"
