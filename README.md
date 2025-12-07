@@ -1,10 +1,10 @@
 # ProMarketingCo — Sitio de Afiliación
 
-[![Netlify](https://img.shields.io/badge/deploy-netlify-brightgreen)](https://regal-maamoul-056f7c.netlify.app)
+[![Netlify](https://img.shields.io/badge/deploy-netlify-brightgreen)](https://promarketingco.netlify.app)
 
 Sitio de afiliación minimalista para promocionar productos y ganar comisiones.
 
-Live demo: https://regal-maamoul-056f7c.netlify.app (ProMarketingCo)
+Live demo: https://promarketingco.netlify.app (ProMarketingCo)
 
 ## Características
 
@@ -37,7 +37,7 @@ python -m http.server 8000
 
 El sitio está desplegado en Netlify en:
 
-https://regal-maamoul-056f7c.netlify.app
+https://promarketingco.netlify.app
 
 Si quieres cambiar el nombre del sitio en Netlify a `promarketingco` o `ProMarketingCo`, usa la interfaz de Netlify o la CLI (ver instrucciones abajo).
 
