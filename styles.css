@@ -48,6 +48,18 @@ body {
     font-size: 1.8rem;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.logo-img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
 .nav-links {
     display: flex;
     list-style: none;
