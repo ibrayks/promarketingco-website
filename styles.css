@@ -361,6 +361,68 @@ body {
     box-shadow: 0 0 5px var(--primary-color);
 }
 
+/* Página de Contacto */
+.contact-section-page {
+    padding: 4rem 2rem;
+    background-color: var(--light-color);
+    min-height: 80vh;
+}
+
+.contact-section-page h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-subtitle {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 3rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.contact-info {
+    margin-top: 4rem;
+    padding-top: 3rem;
+    border-top: 2px solid #ddd;
+}
+
+.contact-info h3 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    color: var(--dark-color);
+}
+
+.info-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.info-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.info-card h4 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.info-card p {
+    color: #666;
+    font-size: 0.95rem;
+}
+
 /* Footer */
 .footer {
     background-color: var(--dark-color);
