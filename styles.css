@@ -245,7 +245,23 @@ body {
 .about-section h2 {
     text-align: center;
     font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Introducción de confianza */
+.trust-intro {
+    background-color: var(--light-color);
+    padding: 2rem;
+    border-radius: 8px;
     margin-bottom: 3rem;
+    text-align: center;
+    border-left: 4px solid var(--primary-color);
+}
+
+.trust-intro p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
 }
 
 .features {
@@ -273,6 +289,40 @@ body {
 
 .feature-card p {
     color: #666;
+}
+
+/* Sección de garantía */
+.trust-guarantee {
+    background-color: #f9f9f9;
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 2.5rem;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.trust-guarantee h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--dark-color);
+}
+
+.trust-guarantee ul {
+    list-style: none;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.trust-guarantee li {
+    padding: 0.8rem;
+    font-size: 1rem;
+    color: #555;
+    border-bottom: 1px solid #eee;
+}
+
+.trust-guarantee li:last-child {
+    border-bottom: none;
 }
 
 /* Sección de Contacto */
