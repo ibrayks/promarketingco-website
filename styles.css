@@ -5,13 +5,13 @@
 }
 
 :root {
-    --primary-color: #007bff;
-    --secondary-color: #28a745;
-    --danger-color: #dc3545;
-    --light-color: #f8f9fa;
-    --dark-color: #343a40;
+    --primary-color: #4a4a4a;
+    --secondary-color: #707070;
+    --danger-color: #8b8b8b;
+    --light-color: #f5f5f5;
+    --dark-color: #2a2a2a;
     --text-color: #333;
-    --border-color: #ddd;
+    --border-color: #d0d0d0;
 }
 
 body {
@@ -58,6 +58,10 @@ body {
     height: 50px;
     width: auto;
     object-fit: contain;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    padding: 4px;
+    background-color: white;
 }
 
 .nav-links {
@@ -118,7 +122,7 @@ body {
 }
 
 .btn-primary:hover {
-    background-color: #0056b3;
+    background-color: #3a3a3a;
 }
 
 .btn-secondary {
@@ -127,7 +131,7 @@ body {
 }
 
 .btn-secondary:hover {
-    background-color: #218838;
+    background-color: #5a5a5a;
 }
 
 /* Sección de Productos */
