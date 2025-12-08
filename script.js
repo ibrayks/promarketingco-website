@@ -1,4 +1,5 @@
-// Datos de productos de ejemplo (puedes conectar con una API real)
+// Datos de productos de Amazon seleccionados
+// Reemplaza los enlaces de afiliado con tus propios códigos de afiliado de Amazon
 const productos = [
     {
         id: 1,
@@ -8,7 +9,7 @@ const productos = [
         precio: "$1,299.99",
         rating: 5,
         imagen: "https://via.placeholder.com/280x200?text=Laptop+Gaming",
-        enlaceAfiliado: "https://ejemplo.com/producto/laptop-gaming"
+        enlaceAfiliado: "https://www.amazon.com/s?k=gaming+laptop&tag=tucodigoafiliado"
     },
     {
         id: 2,
@@ -18,7 +19,7 @@ const productos = [
         precio: "$499.99",
         rating: 4.5,
         imagen: "https://via.placeholder.com/280x200?text=Monitor+4K",
-        enlaceAfiliado: "https://ejemplo.com/producto/monitor-4k"
+        enlaceAfiliado: "https://www.amazon.com/s?k=4k+monitor&tag=tucodigoafiliado"
     },
     {
         id: 3,
@@ -28,7 +29,7 @@ const productos = [
         precio: "$149.99",
         rating: 4.8,
         imagen: "https://via.placeholder.com/280x200?text=Teclado+Mecanico",
-        enlaceAfiliado: "https://ejemplo.com/producto/teclado-mecanico"
+        enlaceAfiliado: "https://www.amazon.com/s?k=mechanical+keyboard+rgb&tag=tucodigoafiliado"
     },
     {
         id: 4,
@@ -38,7 +39,7 @@ const productos = [
         precio: "$79.99",
         rating: 4.6,
         imagen: "https://via.placeholder.com/280x200?text=Mouse+Inalambrico",
-        enlaceAfiliado: "https://ejemplo.com/producto/mouse-inalambrico"
+        enlaceAfiliado: "https://www.amazon.com/s?k=wireless+mouse&tag=tucodigoafiliado"
     },
     {
         id: 5,
@@ -48,7 +49,7 @@ const productos = [
         precio: "$199.99",
         rating: 4.7,
         imagen: "https://via.placeholder.com/280x200?text=Auriculares+Bluetooth",
-        enlaceAfiliado: "https://ejemplo.com/producto/auriculares-bluetooth"
+        enlaceAfiliado: "https://www.amazon.com/s?k=wireless+headphones+noise+cancelling&tag=tucodigoafiliado"
     },
     {
         id: 6,
@@ -58,7 +59,7 @@ const productos = [
         precio: "$129.99",
         rating: 4.5,
         imagen: "https://via.placeholder.com/280x200?text=Webcam+4K",
-        enlaceAfiliado: "https://ejemplo.com/producto/webcam-4k"
+        enlaceAfiliado: "https://www.amazon.com/s?k=4k+webcam&tag=tucodigoafiliado"
     },
     {
         id: 7,
@@ -68,7 +69,7 @@ const productos = [
         precio: "$349.99",
         rating: 4.4,
         imagen: "https://via.placeholder.com/280x200?text=Escritorio+Ergonomico",
-        enlaceAfiliado: "https://ejemplo.com/producto/escritorio-ergonomico"
+        enlaceAfiliado: "https://www.amazon.com/s?k=adjustable+desk&tag=tucodigoafiliado"
     },
     {
         id: 8,
@@ -78,7 +79,7 @@ const productos = [
         precio: "$299.99",
         rating: 4.6,
         imagen: "https://via.placeholder.com/280x200?text=Silla+Gaming",
-        enlaceAfiliado: "https://ejemplo.com/producto/silla-gaming"
+        enlaceAfiliado: "https://www.amazon.com/s?k=gaming+chair&tag=tucodigoafiliado"
     }
 ];
 
