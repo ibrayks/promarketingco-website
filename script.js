@@ -142,7 +142,10 @@ function agregarAlCarrito(productoId) {
 
 // Manejar envío del formulario de contacto
 document.addEventListener('DOMContentLoaded', function() {
-    cargarProductos();
+    const productosContainer = document.getElementById('productos-container');
+    if (productosContainer) {
+        cargarProductos();
+    }
     
     const contactForm = document.getElementById('contactForm');
     if (contactForm) {

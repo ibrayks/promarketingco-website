@@ -16,38 +16,22 @@
         </div>
         <ul class="nav-links">
           <li><a href="index.html">Inicio</a></li>
-          <li><a href="#productos">Productos</a></li>
+          <li><a href="products.html">Productos</a></li>
           <li><a href="about.html">Sobre Nosotros</a></li>
           <li><a href="contact.html">Contacto</a></li>
         </ul>
       </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="inicio" class="hero">
-      <div class="container">
-        <div class="hero-content">
-          <h2>Productos de Amazon Recomendados</h2>
-          <p>Descubre los mejores productos seleccionados en Amazon. Compra con confianza a través de nuestros enlaces de afiliado</p>
-          <button
-            class="btn btn-primary"
-            onclick="document.getElementById('productos').scrollIntoView({ behavior: 'smooth' })"
-          >
-            Ver Productos
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <!-- Sección de Productos -->
-    <section id="productos" class="products-section">
-      <div class="container">
-        <h2>Productos Destacados en Amazon</h2>
-        <div class="affiliate-disclaimer">
-          <p>💡 <strong>Nota:</strong> Los enlaces en esta página son enlaces de afiliado de Amazon. Si compras a través de estos enlaces, recibiremos una pequeña comisión sin que te cueste nada adicional.</p>
-        </div>
-        <div id="productos-container" class="products-grid">
-          <!-- Los productos se cargarán aquí dinámicamente -->
+    <!-- Hero Section - Landing Page -->
+    <section class="hero-landing hero-full">
+      <div class="hero-overlay"></div>
+      <div class="container hero-center">
+        <img src="GoDigitalNow_Logo_Rounded.png" alt="GoDigitalNow Logo" class="hero-logo-large">
+        <div class="hero-ctas">
+          <a href="products.html" class="btn btn-cta">Ver Productos</a>
+          <a href="about.html" class="btn btn-cta btn-cta-outline">Sobre Nosotros</a>
+          <a href="contact.html" class="btn btn-cta btn-cta-outline">Contacto</a>
         </div>
       </div>
     </section>
