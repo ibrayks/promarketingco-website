@@ -1,85 +1,15 @@
-// Datos de productos de Amazon seleccionados
-// Reemplaza los enlaces de afiliado con tus propios códigos de afiliado de Amazon
+// Datos de cursos de Hotmart
+// Enlaces de afiliado de Hotmart
 const productos = [
     {
         id: 1,
-        nombre: "Laptop Gaming Pro",
-        categoria: "Electrónica",
-        descripcion: "Laptop de alto rendimiento para gaming y trabajo profesional",
-        precio: "$1,299.99",
+        nombre: "Curso de Transformación Digital",
+        categoria: "Negocios",
+        descripcion: "Aprende a transformar tu negocio en la era digital. Desde estrategia hasta implementación práctica de herramientas modernas.",
+        precio: "Acceso Completo",
         rating: 5,
-        imagen: "https://via.placeholder.com/280x200?text=Laptop+Gaming",
-        enlaceAfiliado: "https://www.amazon.com/s?k=gaming+laptop&tag=tucodigoafiliado"
-    },
-    {
-        id: 2,
-        nombre: "Monitor 4K Ultra",
-        categoria: "Electrónica",
-        descripcion: "Monitor 4K de 32 pulgadas con color profesional",
-        precio: "$499.99",
-        rating: 4.5,
-        imagen: "https://via.placeholder.com/280x200?text=Monitor+4K",
-        enlaceAfiliado: "https://www.amazon.com/s?k=4k+monitor&tag=tucodigoafiliado"
-    },
-    {
-        id: 3,
-        nombre: "Teclado Mecánico RGB",
-        categoria: "Accesorios",
-        descripcion: "Teclado mecánico personalizable con iluminación RGB",
-        precio: "$149.99",
-        rating: 4.8,
-        imagen: "https://via.placeholder.com/280x200?text=Teclado+Mecanico",
-        enlaceAfiliado: "https://www.amazon.com/s?k=mechanical+keyboard+rgb&tag=tucodigoafiliado"
-    },
-    {
-        id: 4,
-        nombre: "Mouse Inalámbrico Pro",
-        categoria: "Accesorios",
-        descripcion: "Mouse inalámbrico de precisión para trabajo y gaming",
-        precio: "$79.99",
-        rating: 4.6,
-        imagen: "https://via.placeholder.com/280x200?text=Mouse+Inalambrico",
-        enlaceAfiliado: "https://www.amazon.com/s?k=wireless+mouse&tag=tucodigoafiliado"
-    },
-    {
-        id: 5,
-        nombre: "Auriculares Bluetooth",
-        categoria: "Audio",
-        descripcion: "Auriculares inalámbricos con cancelación de ruido activa",
-        precio: "$199.99",
-        rating: 4.7,
-        imagen: "https://via.placeholder.com/280x200?text=Auriculares+Bluetooth",
-        enlaceAfiliado: "https://www.amazon.com/s?k=wireless+headphones+noise+cancelling&tag=tucodigoafiliado"
-    },
-    {
-        id: 6,
-        nombre: "Webcam 4K",
-        categoria: "Electrónica",
-        descripcion: "Webcam 4K con micrófono incorporado para streaming",
-        precio: "$129.99",
-        rating: 4.5,
-        imagen: "https://via.placeholder.com/280x200?text=Webcam+4K",
-        enlaceAfiliado: "https://www.amazon.com/s?k=4k+webcam&tag=tucodigoafiliado"
-    },
-    {
-        id: 7,
-        nombre: "Escritorio Ergonómico",
-        categoria: "Muebles",
-        descripcion: "Escritorio ajustable en altura para mayor comodidad",
-        precio: "$349.99",
-        rating: 4.4,
-        imagen: "https://via.placeholder.com/280x200?text=Escritorio+Ergonomico",
-        enlaceAfiliado: "https://www.amazon.com/s?k=adjustable+desk&tag=tucodigoafiliado"
-    },
-    {
-        id: 8,
-        nombre: "Silla Gaming",
-        categoria: "Muebles",
-        descripcion: "Silla gaming con soporte lumbar y reposacabezas",
-        precio: "$299.99",
-        rating: 4.6,
-        imagen: "https://via.placeholder.com/280x200?text=Silla+Gaming",
-        enlaceAfiliado: "https://www.amazon.com/s?k=gaming+chair&tag=tucodigoafiliado"
+        imagen: "https://via.placeholder.com/280x200?text=Curso+Digital",
+        enlaceAfiliado: "https://go.hotmart.com/C103507398Q"
     }
 ];
 
@@ -117,7 +47,7 @@ function cargarProductos() {
                 <div class="product-rating">${crearEstrella(producto.rating)} (${producto.rating})</div>
                 <div class="product-price">${producto.precio}</div>
                 <div class="product-footer">
-                    <a href="${producto.enlaceAfiliado}" target="_blank" class="btn btn-primary" title="Comprar en Amazon">Comprar</a>
+                    <a href="${producto.enlaceAfiliado}" target="_blank" class="btn btn-primary" title="Acceder al Curso en Hotmart">Acceder Ahora</a>
                     <button class="btn btn-secondary" onclick="agregarAlCarrito(${producto.id})" title="Agregar a favoritos">♥</button>
                 </div>
             </div>
