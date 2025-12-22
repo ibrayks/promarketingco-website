@@ -62,6 +62,8 @@ body {
     border: 2px solid #ddd;
     padding: 4px;
     background-color: white;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
 }
 
 .nav-links {
@@ -83,11 +85,15 @@ body {
 /* Hero Section - Landing Page */
 .hero-landing.hero-full {
     background: url('GoDigitalNow Logo.jpg') center/cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     position: relative;
     color: white;
     min-height: 100vh;
     display: flex;
     align-items: center;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .hero-overlay {
@@ -110,6 +116,8 @@ body {
     width: 320px;
     height: 320px;
     border-radius: 50%;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
     box-shadow: 0 20px 60px rgba(0,0,0,0.5);
     background-color: white;
     padding: 8px;
